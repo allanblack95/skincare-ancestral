@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ancestral | Tu piel, tu herencia, tu claridad</title>
+    <meta name="description"
+        content="Kit de Skincare Ancestral para jóvenes indígenas. Serum de Boreal y Gel de Algas. Tratamiento natural para el acné y piel sensible.">
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        body {
+            opacity: 0;
+        }
+    </style>
+</head>
+
+<body class="bg-bone text-carbon antialiased selection:bg-terracotta selection:text-white"
+    data-title-i18n="hero_title_1">
+
+    <div id="navbar-container"></div>
+
+    <main class="pt-20">
+        <section class="relative h-[90vh] flex items-center justify-center overflow-hidden">
+            <div class="absolute inset-0 z-0">
+                <img src="./assets/images/hero_indigenous_youth_skincare.png" alt="Hero"
+                    class="w-full h-full object-cover">
+                <div class="absolute inset-0 bg-black/40 mix-blend-multiply"></div>
+            </div>
+
+            <div class="relative z-10 text-center px-4 max-w-5xl mx-auto fade-in-up">
+                <span
+                    class="inline-block py-1 px-4 border border-white/40 rounded-full text-white text-xs tracking-widest uppercase mb-6 backdrop-blur-md"
+                    data-i18n="hero_tag">Skincare 2026</span>
+                <h1 class="text-5xl md:text-8xl font-serif font-bold text-white mb-8 leading-[1.1] md:leading-[1.05]">
+                    <span data-i18n="hero_title_1">Your skin, your heritage,</span> <br> <span
+                        class="text-glacial italic block mt-2" data-i18n="hero_title_2">your clarity.</span>
+                </h1>
+                <p class="text-lg md:text-2xl text-gray-100 mb-10 max-w-3xl mx-auto font-light leading-relaxed"
+                    data-i18n="hero_desc">
+                    Rediscover purity with the first routine designed to resist extreme weather and honor your biology.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="./rutina/index.html"
+                        class="bg-terracotta text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-terracotta transition-colors shadow-lg"
+                        data-i18n="hero_cta_primary">Discover the Dual Kit</a>
+                    <a href="#problem"
+                        class="bg-white/10 backdrop-blur-md border border-white/30 text-white px-8 py-4 rounded-full font-medium hover:bg-white/20 transition-colors"
+                        data-i18n="hero_cta_secondary">Understand my Skin</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="problem" class="py-24 px-4 bg-white">
+            <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-16">
+                <div class="w-full md:w-1/2">
+                    <img src="https://placehold.co/800x1000/F5F5F5/1A1A1A?text=Problem"
+                        alt="Efectos del clima extremo"
+                        class="rounded-2xl shadow-2xl object-cover h-[600px] w-full grayscale hover:grayscale-0 transition-all duration-700">
+                </div>
+                <div class="w-full md:w-1/2">
+                    <h2 class="text-4xl md:text-5xl font-serif font-bold mb-6 text-carbon">
+                        <span data-i18n="problem_tag">The climate doesn't forgive.</span> <br> <span
+                            class="text-terracotta" data-i18n="problem_title">Neither should your skin suffer.</span>
+                    </h2>
+                    <ul class="space-y-4 mb-8">
+                        <li class="flex items-start">
+                            <span class="bg-red-100 text-red-800 p-1 rounded-full mr-3 text-xs">✕</span>
+                            <span class="text-gray-700" data-i18n="problem_item_1">Chemical products that burn and dry out.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="footer-container"></div>
+
+    <script src="./js/translations.js"></script>
+    <script src="./js/components.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
